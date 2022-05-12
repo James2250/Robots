@@ -754,7 +754,7 @@ void Run()
 					if (GAMEVERSION == VERSION::US)
 					{
 						SetValueAtAddress(NewFPS, TargetFPSAddress);
-						SetValueAtAddress(NewFPS * 2, 0x68D51); // some levels force FPS back every frame, overriding that
+						SetValueAtAddress(NewFPS * 2, 0x33F91); // some levels force FPS back every frame, overriding that
 					}
 				}
 			}
